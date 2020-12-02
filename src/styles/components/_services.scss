@@ -1,0 +1,37 @@
+.my-services {
+  background-color: var(--clr-dark);
+  background-image: url("../../images/christopher-gower-m_HRfLhgABo-unsplash.png");
+  background-size: cover;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--services {
+  color: var(--clr-accent);
+  position: relative;
+}
+.section__title--services::after {
+  content: "";
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: currentColor;
+  opacity: 0.5;
+}
+.service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .services {
+    display: flex;
+    min-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .service + .service {
+    margin-left: 2em;
+  }
+}
