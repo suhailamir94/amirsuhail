@@ -8,7 +8,12 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={HomePage} exact />
+        <Route
+          path="/"
+          basename={process.env.PUBLIC_URL}
+          component={HomePage}
+          exact
+        />
         <Route path="/project/:id" component={PortfolioPage} />
       </Switch>
     </BrowserRouter>
