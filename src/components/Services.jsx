@@ -7,7 +7,7 @@ const Services = () => {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">
-          <h3> Dsign + Devlopemnt</h3>
+          <h3> Design + Devlopemnt</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
             nisi laborum vel necessitatibus dolor eligendi incidunt sequi
@@ -36,7 +36,7 @@ const Services = () => {
       </div>
 
       <Link
-        to="hworkome"
+        to="work"
         spy={true}
         smooth={true}
         duration={500}

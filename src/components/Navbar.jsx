@@ -1,11 +1,21 @@
 import React from "react";
 import { Link } from "react-scroll";
-// const ScrollLink = Scroll.ScrollLink;
+
+const addClass = () => {
+  document.body.classList.toggle("nav-open");
+};
+const removeClass = () => {
+  document.body.classList.remove("nav-open");
+};
 
 const Navbar = () => {
   return (
     <>
-      <button className="nav-toggle" aria-label="toggle navigation">
+      <button
+        className="nav-toggle"
+        aria-label="toggle navigation"
+        onClick={addClass}
+      >
         <span className="hamburger"></span>
       </button>
       <nav className="nav">
@@ -18,6 +28,7 @@ const Navbar = () => {
               duration={500}
               className="nav__link"
               activeClass="some-active-class"
+              onClick={removeClass}
             >
               Home
             </Link>
@@ -30,6 +41,7 @@ const Navbar = () => {
               duration={500}
               className="nav__link"
               activeClass="some-active-class"
+              onClick={removeClass}
             >
               My Services
             </Link>
@@ -42,6 +54,7 @@ const Navbar = () => {
               duration={500}
               className="nav__link"
               activeClass="some-active-class"
+              onClick={removeClass}
             >
               About Me
             </Link>
@@ -54,6 +67,7 @@ const Navbar = () => {
               duration={500}
               className="nav__link"
               activeClass="some-active-class"
+              onClick={removeClass}
             >
               My Work
             </Link>

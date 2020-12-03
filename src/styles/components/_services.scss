@@ -19,6 +19,10 @@
   background: currentColor;
   opacity: 0.5;
 }
+
+.services {
+  margin-bottom: 4em;
+}
 .service {
   max-width: 500px;
   margin: 0 auto;
@@ -28,7 +32,8 @@
   .services {
     display: flex;
     min-width: 1000px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service + .service {

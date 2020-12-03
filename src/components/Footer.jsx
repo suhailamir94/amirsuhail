@@ -1,52 +1,59 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <a href="mailto:suhailamir094@gmail.com" className="footer--link">
         suhailamir094@gmail.com
       </a>
       <ul className="social-list">
-        <l1 className="social-list__item">
+        <li className="social-list__item">
           <a
             href="https://www.instagram.com/not_that_amir_"
             className="social-list__link"
             rel="noopener noreferrer"
             target="_blank"
           >
-            a
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
-        </l1>
-        <l1 className="social-list__item">
+        </li>
+        <li className="social-list__item">
           <a
             href="https://www.linkedin.com/in/amir-suhail-02b19bbb/"
             className="social-list__link"
             rel="noopener noreferrer"
             target="_blank"
           >
-            b
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
-        </l1>
-        <l1 className="social-list__item">
+        </li>
+        <li className="social-list__item">
           <a
             href="https://twitter.com/AmirSuhail09"
             className="social-list__link"
             rel="noopener noreferrer"
             target="_blank"
           >
-            c
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
-        </l1>
-        <l1 className="social-list__item">
+        </li>
+        <li className="social-list__item">
           <a
-            href="https://facebook.com"
+            href="https://github.com/suhailamir94"
             className="social-list__link"
             rel="noopener noreferrer"
             target="_blank"
           >
-            d
+            <FontAwesomeIcon icon={faGithub} />
           </a>
-        </l1>
+        </li>
       </ul>
     </footer>
   );

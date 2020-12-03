@@ -1,5 +1,6 @@
 import React from "react";
-import intro_image from "../images/eduardo-dutra-k6b53YWZI9I-unsplash.png";
+// import intro_image from "../images/eduardo-dutra-k6b53YWZI9I-unsplash.png";
+import intro_image from "../images/IMG_20191013_001234.jpg";
 
 const Introduction = () => {
   return (
@@ -8,7 +9,7 @@ const Introduction = () => {
         Hi, I am <strong>Amir Suhail</strong>
       </h1>
       <p className="section__subtitle section__subtitle--intro">
-        full-Stack Dev
+        full-stack dev
       </p>
       <img src={intro_image} alt="" className="intro__img" />
     </section>

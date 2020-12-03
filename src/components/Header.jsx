@@ -1,12 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Navbar from "./Navbar";
+import { ReactComponent as Logo } from "../images/logo.svg";
 
 const Header = () => {
   return (
     <header>
-      <div className="logo">
-        <img src="/images/yesy.png" alt="" />
-      </div>
+      <Link to="/" className="logo">
+        <Logo />
+      </Link>
       <Navbar />
     </header>
   );

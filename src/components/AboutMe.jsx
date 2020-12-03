@@ -1,6 +1,6 @@
 import React from "react";
 
-import about_me_img from "../images/eduardo-dutra-Kqjc3vvgl1k-unsplash.png";
+import about_me_img from "../images/IMG_20191013_000901_1.jpg";
 
 const AboutMe = () => {
   return (
@@ -23,7 +23,7 @@ const AboutMe = () => {
           repellat fugiat?
         </p>
       </div>
-      <img src={about_me_img} alt="" srcset="" />
+      <img src={about_me_img} alt="" className="about-me__img" />
     </section>
   );
 };
