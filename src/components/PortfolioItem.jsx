@@ -1,6 +1,5 @@
 import React from "react";
 import pic1 from "../images/Rectangle 3-1@2x.png";
-import pic2 from "../images/Rectangle 3-5@2x.png";
 
 const PortfolioItem = () => {
   return (

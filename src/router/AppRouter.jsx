@@ -1,22 +1,17 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import HomePage from "../components/HomePage";
 import PortfolioPage from "../components/PortfolioPage";
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route
-          path="/"
-          basename={process.env.PUBLIC_URL}
-          component={HomePage}
-          exact
-        />
+        <Route path="/" component={HomePage} exact />
         <Route path="/project/:id" component={PortfolioPage} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
