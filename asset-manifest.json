@@ -1,33 +1,29 @@
 {
   "files": {
-    "main.css": "/amirsuhail/static/css/main.2fb8a2f5.chunk.css",
-    "main.js": "/amirsuhail/static/js/main.619d52a5.chunk.js",
-    "main.js.map": "/amirsuhail/static/js/main.619d52a5.chunk.js.map",
-    "runtime-main.js": "/amirsuhail/static/js/runtime-main.d7055b71.js",
-    "runtime-main.js.map": "/amirsuhail/static/js/runtime-main.d7055b71.js.map",
-    "static/js/2.7085fb17.chunk.js": "/amirsuhail/static/js/2.7085fb17.chunk.js",
-    "static/js/2.7085fb17.chunk.js.map": "/amirsuhail/static/js/2.7085fb17.chunk.js.map",
-    "static/js/3.d90eede6.chunk.js": "/amirsuhail/static/js/3.d90eede6.chunk.js",
-    "static/js/3.d90eede6.chunk.js.map": "/amirsuhail/static/js/3.d90eede6.chunk.js.map",
+    "main.css": "/amirsuhail/static/css/main.0698ae49.chunk.css",
+    "main.js": "/amirsuhail/static/js/main.640669af.chunk.js",
+    "main.js.map": "/amirsuhail/static/js/main.640669af.chunk.js.map",
+    "runtime-main.js": "/amirsuhail/static/js/runtime-main.69733bd8.js",
+    "runtime-main.js.map": "/amirsuhail/static/js/runtime-main.69733bd8.js.map",
+    "static/js/2.42e7f708.chunk.js": "/amirsuhail/static/js/2.42e7f708.chunk.js",
+    "static/js/2.42e7f708.chunk.js.map": "/amirsuhail/static/js/2.42e7f708.chunk.js.map",
+    "static/js/3.e5dc71ab.chunk.js": "/amirsuhail/static/js/3.e5dc71ab.chunk.js",
+    "static/js/3.e5dc71ab.chunk.js.map": "/amirsuhail/static/js/3.e5dc71ab.chunk.js.map",
     "index.html": "/amirsuhail/index.html",
-    "static/css/main.2fb8a2f5.chunk.css.map": "/amirsuhail/static/css/main.2fb8a2f5.chunk.css.map",
-    "static/js/2.7085fb17.chunk.js.LICENSE.txt": "/amirsuhail/static/js/2.7085fb17.chunk.js.LICENSE.txt",
+    "static/css/main.0698ae49.chunk.css.map": "/amirsuhail/static/css/main.0698ae49.chunk.css.map",
+    "static/js/2.42e7f708.chunk.js.LICENSE.txt": "/amirsuhail/static/js/2.42e7f708.chunk.js.LICENSE.txt",
     "static/media/IMG_20191013_000901_1.bddc5328.jpg": "/amirsuhail/static/media/IMG_20191013_000901_1.bddc5328.jpg",
     "static/media/IMG_20191013_001234.8a55304c.jpg": "/amirsuhail/static/media/IMG_20191013_001234.8a55304c.jpg",
-    "static/media/Rectangle 3-1@2x.85ec7dad.png": "/amirsuhail/static/media/Rectangle 3-1@2x.85ec7dad.png",
-    "static/media/Rectangle 3-2@2x.c928f98d.png": "/amirsuhail/static/media/Rectangle 3-2@2x.c928f98d.png",
-    "static/media/Rectangle 3-3@2x.82aeb323.png": "/amirsuhail/static/media/Rectangle 3-3@2x.82aeb323.png",
-    "static/media/Rectangle 3-4@2x.e6c8cb78.png": "/amirsuhail/static/media/Rectangle 3-4@2x.e6c8cb78.png",
-    "static/media/index.scss": "/amirsuhail/static/media/christopher-gower-m_HRfLhgABo-unsplash.3f64e232.png",
-    "static/media/Rectangle 3-6@2x.85ec7dad.png": "/amirsuhail/static/media/Rectangle 3-6@2x.85ec7dad.png",
-    "static/media/Rectangle 3-7@2x.3604da86.png": "/amirsuhail/static/media/Rectangle 3-7@2x.3604da86.png",
-    "static/media/Rectangle 3-8@2x.b5243cb7.png": "/amirsuhail/static/media/Rectangle 3-8@2x.b5243cb7.png",
-    "static/media/logo.abe60e2b.svg": "/amirsuhail/static/media/logo.abe60e2b.svg"
+    "static/media/index.scss": "/amirsuhail/static/media/services-bg.3f64e232.png",
+    "static/media/expensify.ff547d33.png": "/amirsuhail/static/media/expensify.ff547d33.png",
+    "static/media/logo.abe60e2b.svg": "/amirsuhail/static/media/logo.abe60e2b.svg",
+    "static/media/node-chat-app.ac49ef06.png": "/amirsuhail/static/media/node-chat-app.ac49ef06.png",
+    "static/media/timesheet-submission.cf08150b.png": "/amirsuhail/static/media/timesheet-submission.cf08150b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7055b71.js",
-    "static/js/2.7085fb17.chunk.js",
-    "static/css/main.2fb8a2f5.chunk.css",
-    "static/js/main.619d52a5.chunk.js"
+    "static/js/runtime-main.69733bd8.js",
+    "static/js/2.42e7f708.chunk.js",
+    "static/css/main.0698ae49.chunk.css",
+    "static/js/main.640669af.chunk.js"
   ]
 }
