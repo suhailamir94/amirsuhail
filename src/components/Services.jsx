@@ -7,30 +7,28 @@ const Services = () => {
       <h2 className="section__title section__title--services">What I do</h2>
       <div className="services">
         <div className="service">
-          <h3> Design + Devlopemnt</h3>
+          <h3> Web Devlopment</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
-            nisi laborum vel necessitatibus dolor eligendi incidunt sequi
-            laudantium, alias rem labore numquam explicabo at dicta optio. Animi
-            deserunt est amet.
+            I design / develop static and dynamic web applications that provide
+            seeamless user experience. I have experience in building
+            applications in multiple business domains like Supply chain,
+            Pharmaceuticals, Computer Networking, and Finance.
           </p>
         </div>
         <div className="service">
-          <h3>API Devlopemnt</h3>
+          <h3>API / CLI Devlopment</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
-            nisi laborum vel necessitatibus dolor eligendi incidunt sequi
-            laudantium, alias rem labore numquam explicabo at dicta optio. Animi
-            deserunt est amet.
+            Apart from developing web apps, I also have experience in designing
+            and developing complex backend API/CLI services. My backend tech
+            stack includes Python, Node.js and Golang.
           </p>
         </div>
         <div className="service">
-          <h3>E-Commerce</h3>
+          <h3>Android / IOS Apps</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
-            nisi laborum vel necessitatibus dolor eligendi incidunt sequi
-            laudantium, alias rem labore numquam explicabo at dicta optio. Animi
-            deserunt est amet.
+            Being a Javascript developer provides me with multiple opportunities
+            to design and develop hybrid Mobile apps using React Native and
+            Expo.
           </p>
         </div>
       </div>

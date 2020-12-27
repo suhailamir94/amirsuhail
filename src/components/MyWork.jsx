@@ -1,15 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-import pic1 from "../images/Rectangle 3-1@2x.png";
-import pic2 from "../images/Rectangle 3-2@2x.png";
-import pic3 from "../images/Rectangle 3-3@2x.png";
-import pic4 from "../images/Rectangle 3-4@2x.png";
-import pic5 from "../images/Rectangle 3-5@2x.png";
-import pic6 from "../images/Rectangle 3-6@2x.png";
-import pic7 from "../images/Rectangle 3-7@2x.png";
-import pic8 from "../images/Rectangle 3-8@2x.png";
+import ProjectItem from "./ProjectItem";
+import pic1 from "../images/expensify.png";
+import pic2 from "../images/node-chat-app.png";
+import pic3 from "../images/timesheet-submission.png";
+import pic4 from "../images/Rectangle 3-5@2x.png";
 
+const githubLinks = [
+  "https://github.com/suhailamir94/expense-manager",
+  "https://github.com/suhailamir94/nodejs-chatApp",
+  "https://github.com/suhailamir94/automated-timesheet-submission",
+  "https://github.com/suhailamir94",
+];
+
+const publicUrls = [
+  "https://amir-expense-manager.herokuapp.com",
+  "https://react-chatroom-amir.herokuapp.com",
+];
+const pics = [pic1, pic2, pic3, pic4];
 const MyWork = () => {
   return (
     <section className="my-work">
@@ -18,30 +26,18 @@ const MyWork = () => {
         A selection of my range of work
       </p>
       <div className="portfolio">
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic1} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic2} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic3} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic4} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic5} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic6} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic7} alt="" className="portfolio__img" />
-        </Link>
-        <Link to={"/project/pic1"} className="portfolio__item">
-          <img src={pic8} alt="" className="portfolio__img" />
-        </Link>
+        {githubLinks.map((link, index) => {
+          return (
+            <ProjectItem
+              key={index}
+              index={index}
+              githubLink={link}
+              publicLink={index < 2 ? publicUrls[index] : undefined}
+              hoverclassName={index > 1 ? "hover-icon__single" : "hover-icon"}
+              pic={pics[index]}
+            />
+          );
+        })}
       </div>
     </section>
   );

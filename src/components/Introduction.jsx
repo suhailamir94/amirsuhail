@@ -1,5 +1,5 @@
 import React from "react";
-// import intro_image from "../images/eduardo-dutra-k6b53YWZI9I-unsplash.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import intro_image from "../images/IMG_20191013_001234.jpg";
 
 const Introduction = () => {
@@ -11,7 +11,7 @@ const Introduction = () => {
       <p className="section__subtitle section__subtitle--intro">
         full-stack dev
       </p>
-      <img src={intro_image} alt="" className="intro__img" />
+      <LazyLoadImage src={intro_image} alt="" className="intro__img" />
     </section>
   );
 };

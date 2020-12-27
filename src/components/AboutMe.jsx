@@ -1,5 +1,5 @@
 import React from "react";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import about_me_img from "../images/IMG_20191013_000901_1.jpg";
 
 const AboutMe = () => {
@@ -11,19 +11,21 @@ const AboutMe = () => {
       </p>
       <div className="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit minus
-          fugit, dicta accusamus consectetur omnis amet quasi. Sit ut natus
-          voluptate, obcaecati suscipit illo maxime et ipsam tempora magni
-          nulla.
+          I am a seasoned software expert who has worked for companies such as
+          Arista Networks, Accenture and IBM, as well as many venture-backed
+          businesses. I specialize in building applications specific to the
+          business needs of my clients. I have done work in software
+          development, mobile app creation, front-end/back-end web and
+          database/server management
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          tempore aspernatur, deleniti sunt non eius eum voluptatum. Eligendi
-          harum voluptatem beatae iusto ullam, itaque facere tempore sed, earum
-          repellat fugiat?
+          As a software developer, I enjoy using my obsessive attention to
+          detail, my unequivocal love for making things, and my mission-driven
+          work ethic to literally change the world. That's why I’m excited to
+          make a big impact at a high growth company.
         </p>
       </div>
-      <img src={about_me_img} alt="" className="about-me__img" />
+      <LazyLoadImage alt="" src={about_me_img} className="about-me__img" />
     </section>
   );
 };

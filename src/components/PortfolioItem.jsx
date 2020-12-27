@@ -1,5 +1,6 @@
 import React from "react";
-import pic1 from "../images/Rectangle 3-1@2x.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import pic1 from "../images/Rectangle 3-5@2x.png";
 
 const PortfolioItem = () => {
   return (
@@ -11,7 +12,7 @@ const PortfolioItem = () => {
         <p className="section__subtitle section__subtitle--intro">
           full-Stack Dev
         </p>
-        <img src={pic1} alt="" className="intro__img" />
+        <LazyLoadImage src={pic1} alt="" className="intro__img" />
       </section>
       <div className="portfolio-item-individual">
         <p>

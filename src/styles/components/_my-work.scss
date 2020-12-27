@@ -6,8 +6,29 @@
 
 .section__subtitle--my-work {
   color: var(--clr-accent);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-reg);
+  margin-top: 1em;
   margin-bottom: 2em;
+}
+.hover-icon__single {
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 45%;
+  left: 27%;
+  min-width: 10em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.font-awesome-icon {
+  color: var(--clr-dark);
+  font-size: 2.5rem;
+  cursor: pointer;
 }
 
 .portfolio {
@@ -20,6 +41,7 @@
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
+  position: relative;
 }
 
 .portfolio__img {
@@ -29,4 +51,17 @@
 .portfolio__img:hover {
   transform: scale(1.2);
   opacity: 0.75;
+}
+
+@media (max-width: 400px) {
+  .portfolio {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .font-awesome-icon {
+    font-size: 2rem;
+  }
+  .hover-icon {
+    left: 33%;
+    min-width: 7em;
+  }
 }
